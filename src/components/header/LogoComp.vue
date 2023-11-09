@@ -1,6 +1,6 @@
 <template>
-    <div>
-
+    <div class="center">
+        <img src="/Images/dc-logo.png" alt="Logo">
     </div>
 </template>
   
@@ -14,4 +14,16 @@ export default {
 }
 </script>
   
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+.center{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 10px;
+
+    img{
+        width: 100%;
+    }
+}
+</style>

@@ -1,8 +1,8 @@
 <template>
-
-    <LogoComp />
-    <NavCompVue />
-    
+    <div class="container">
+        <LogoComp />
+        <NavComp />
+    </div>
 </template>
   
 <script>
@@ -17,4 +17,12 @@ export default {
 }
 </script>
   
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+    width: 60%;
+    margin: 0 auto;
+}
+</style>
