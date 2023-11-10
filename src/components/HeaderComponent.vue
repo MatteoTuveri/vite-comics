@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container d-flex justify-content-between">
         <LogoComp />
         <NavComp />
     </div>
@@ -18,11 +18,4 @@ export default {
 </script>
   
 <style lang="scss" scoped>
-.container {
-    display: flex;
-    justify-content: space-between;
-    padding: 0px 20px;
-    width: 60%;
-    margin: 0 auto;
-}
 </style>

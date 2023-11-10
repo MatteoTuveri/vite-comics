@@ -15,6 +15,18 @@ export default {
     
     data() {
         return {
+            saluti:[
+                {
+                    ciao:'ciao',
+                },
+                {
+                    ciao:'bella'
+                },
+                {
+                    ciao:'bellissima'
+                }
+                
+        ]
 
         }
     },

@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <h1>
+    <div >
+        <h1 class="container text-white">
             {{ title }}
         </h1>
     </div>
@@ -20,11 +20,5 @@ export default {
 div{
     background-color: rgb(28, 28, 28);
     padding: 40px 0;
-}
-
-h1{
-    margin: 0 auto;
-    width: 60%;
-    color: white;
 }
 </style>
