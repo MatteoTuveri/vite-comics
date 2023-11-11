@@ -3,7 +3,7 @@
         <ul class="container d-flex justify-content-between">
             <li v-for="(item, index) in icons">
                 <div class="img">
-                    <div v-if="locator"></div>
+                    <div v-if="item === icons[4]" class="gap-loc"></div>
                     <img :src="item.image" :alt="item.title">
                 </div>
                 <div class="title">
@@ -41,7 +41,6 @@ export default {
                     title: 'dc power visa'
                 },
             ],
-            locator:false,
         }
     }
 }
@@ -57,13 +56,21 @@ li {
 }
 
 img {
+    float: left;
+    width:  50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+.gap-loc{
     width: 100%;
-    padding: 0 10px;
+    height: 20px;
 }
 
 .img {
-    width: 80px;
-
+    padding: 10px;
+    display: flex;
+    align-items: center;
 }
 
 .title {
