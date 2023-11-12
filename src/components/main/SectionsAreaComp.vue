@@ -48,6 +48,7 @@ export default {
 <style lang="scss" scoped>
 ul {
     list-style: none;
+    margin-bottom: 0px;
 }
 
 li {

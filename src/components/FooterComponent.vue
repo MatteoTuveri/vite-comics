@@ -1,8 +1,10 @@
 <template>
-
-    <CallToAction />
-    <FollowUsComp />
-    
+    <div class="bg-footer d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <CallToAction />
+            <FollowUsComp />
+        </div>
+    </div>
 </template>
   
 <script>
@@ -17,4 +19,10 @@ export default {
 }
 </script>
   
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.bg-footer {
+    background-color: rgb(48, 48, 48);
+    width: 100%;
+    height: 150px;
+}
+</style>

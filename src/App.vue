@@ -1,7 +1,13 @@
 <template>
-  <HeaderComponent />
-  <MainComponent />
-  <FooterComponent />
+  <header>
+      <HeaderComponent />
+  </header>
+  <main>
+      <MainComponent />
+  </main>
+  <footer>
+      <FooterComponent />
+  </footer>
 </template>
 
 <script>
@@ -24,5 +30,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
 </style>

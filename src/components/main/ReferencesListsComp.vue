@@ -120,6 +120,10 @@ export default {
     background-size: cover;
 }
 
+ul{
+    z-index: 1000;
+}
+
 h2 {
     text-transform: uppercase;
 }
@@ -130,7 +134,7 @@ li {
 
     a {
         text-decoration: none;
-        color: rgb(255, 255, 255, 0.5);
+        color: rgb(255, 255, 255, 0.6);
     }
 }
 
