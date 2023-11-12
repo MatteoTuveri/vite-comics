@@ -140,7 +140,7 @@ li {
 
 .img {
     width: 600px;
-    right: 100px;
+    right: 15vw;
     top: -80px
 }
 

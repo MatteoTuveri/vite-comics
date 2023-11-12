@@ -1,7 +1,7 @@
 <template>
     <ul>
-        <li v-for="(item, index) in nav">
-            <div>
+        <li v-for="(item, index) in nav" class="n-hover">
+            <div class="flex-grow-1 d-flex align-items-center">
                 {{ item }}
             </div>
         </li>
@@ -31,12 +31,18 @@ export default {
   
 <style lang="scss" scoped>
 li {
-    vertical-align: center;
+    display: flex;
+    flex-direction: column;
     text-transform: uppercase;
     list-style: none;
     padding: 0px 10px;
-    display: flex;
-    align-items: center;
+}
+
+li:hover::after {
+    content: '';
+    width: 100%;
+    height: 5px;
+    background-color: rgb(3, 128, 245);
 }
 
 ul {
